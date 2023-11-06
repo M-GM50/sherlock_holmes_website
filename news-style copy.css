@@ -1,0 +1,33 @@
+body {
+    background-image: url("backgroundsh.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.article {
+    background-color: cornsilk;
+    padding: 30px;
+    text-align: justify;
+}
+
+#heading {
+    text-decoration: underline;
+    font-size: 3em;
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color: bisque;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color: bisque;
+}

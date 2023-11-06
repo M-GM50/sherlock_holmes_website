@@ -1,0 +1,31 @@
+body{
+    background-image: url("backgroundsh.jpg");
+}
+
+.all-stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size:2em;
+}
+
+td, th {
+    background-color: bisque;
+    height: 200px;
+    text-align: center;
+}
+
+th {
+    width: 150px;
+    background-color: grey;
+    color: cornsilk;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 2em;
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color: bisque;
+}

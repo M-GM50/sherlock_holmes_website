@@ -1,0 +1,45 @@
+body{
+    background-image: url(backgroundsh.jpg);
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color: bisque;
+    margin: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid royalblue;
+    border-radius: 50px;
+    width: 600px;
+    height: 600px;
+}
+
+#captions {
+    text-align: center;
+    border: solid 10px royalblue;
+    border-radius: 5px;
+    background-color: royalblue;
+    font-size: medium;
+    font-weight: bold;
+    color: cornsilk;
+    margin-top: 5px;
+    font-size: 2em;
+    
+}

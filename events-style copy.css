@@ -1,0 +1,29 @@
+body {
+    background-image: url("backgroundsh.jpg");
+}
+
+.events{
+    font-size: 2em;
+}
+
+td,th {
+    background-color: bisque;
+    height: 200px;
+    text-align: center;
+    width: 600px;
+}
+
+th {
+    width: 300px;
+    background-color: grey;
+    color: cornsilk;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 2em;
+    border: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color: bisque;
+}

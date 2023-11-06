@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+}
+
+.title{
+    color: white;
+    font-family: cursive;
+    font-size: 5em;
+    text-align: center;
+    text-shadow:
+            3px 3px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+.middlebar {
+    background-color: royalblue;
+    color: cornsilk;
+    border: solid;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 80px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    font-size: 20px;
+    background-color:darkcyan;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+    width: 100%;
+}
+
+img { 
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid royalblue;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+#captions {
+    text-align: center;
+    border: solid 10px royalblue;
+    border-radius: 5px;
+    background-color: royalblue;
+    font-size: medium;
+    font-weight: bold;
+    color: cornsilk;
+    margin-top: 5px;
+}
+
+.column {
+    width: 40%;
+}
+
+ul {
+    list-style: none;
+    font-size: larger;
+}
+
+.testimonials {
+    text-align: center;
+    font-size: 2em;
+}
+
+table {
+    margin: auto;
+    text-align: justify;
+    font-size: larger;
+}
+
+.people {
+    font-size: 30px;
+}
